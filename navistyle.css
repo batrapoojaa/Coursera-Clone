@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 120px;
+}
+
+.Header {
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+/* a {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 0%;
+} */
+
+.container .Header ul {
+  display: flex;
+  margin-left: 25px;
+}
+
+.container .Header ul li {
+  margin: 0px 20px;
+  height: 43px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.container .Header ul li:hover {
+  color: black;
+  background-color: white;
+}
+
+.container .Header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container .Header ul li:hover > a {
+  color: black;
+}
+
+.imagecontainer {
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.imagecontainer ul {
+  display: flex;
+  list-style: none;
+}
+.imagecontainer img {
+  font-size: 240px;
+}
+.imagecontainer ul li {
+  margin: 10px 20px;
+  font-size: 14px;
+  color: #5b6780;
+  cursor: pointer;
+}
+
+.imagecontainer button {
+  background-color: #0056d2;
+  color: white;
+  font-weight: 400;
+  padding: 5px 10px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.imagecontainer button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.imagecontainer button:hover > a {
+  border-bottom: 1px solid white;
+}
+.imagecontainer ul li:hover {
+  color: #0056d2;
+  border-bottom: 1px solid #0056d2;
+}
+.content {
+  display: flex;
+}
